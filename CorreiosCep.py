@@ -4,7 +4,7 @@ import time
 
 class seleniumbusca():
     def __init__(self):
-        driver = webdriver.Chrome('H:/StudySpace/Python/CEP-UF/chromedriver.exe')
+        driver = webdriver.Chrome()
         driver.get('https://buscacepinter.correios.com.br/app/endereco/index.php')
         self.driver = driver
     def buscaCep(self,cep):
